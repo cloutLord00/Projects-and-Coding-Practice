@@ -1,0 +1,64 @@
+——CODING PRACTICE——
+
+HOW TO COMPILE/RUN/TEST SOURCE CODE
+————————————————————————————————————————————————————————————————————————————————————
+1) execute run_tests to compile and run the source code
+2) execute run_diffs in ./outputs directory to verify for correctness
+————————————————————————————————————————————————————————————————————————————————————
+
+*******
+1.c
+*******
+Reads in 3 integers from the keyboard and prints them out in increasing order. A
+single space is used to separate the numbers in both input and output. For example:
+Input: 4 -2 9
+Output: -2 4 9
+
+*******
+2.c
+*******
+Read in a positive integer (using %d) and print it out digit by
+digit from the 1’s digit, 10’s digit, and so on. 
+
+For example: 
+Input: 384205
+Output: 5 0 2 4 8 3
+
+*******
+3.c
+*******
+Read in a positive integer (maybe very large) from 
+keyboard and print it out digit by digit in English. 
+ 
+For example:
+Input: 384205
+Output: three eight four two zero five
+
+*******
+4.c
+*******
+Prints out the calendar of January. 2016 in the same format as “cal 1 2016”.
+
+*******
+6.c
+*******
+Accepts two arrays, A[] and B[], each with up to 10 integers. 
+A[] is sorted in the ascending order and B[] is sorted in the descending order. 
+A space is used after each integer input and “Enter” key will be used at the end 
+of each array. Numbers are printed in ascending order. 
+
+For example, 
+if A[] = {1 3 5 7 9} and B[] = {8 6 4 2}, 
+output will be 1 2 3 4 5 6 7 8 9
+
+*******
+7.c
+*******
+Opens an input file, reverses each of the word and writes to an output file. 
+A word is a string (with less than 20 characters) that ends with anything other 
+than 0-9, a-z, and A-Z. 
+
+For example:
+Input file: This is ENEE459B. Homework 1 is due on Friday. Good$$?Luck! 
+Output file: sihT si B954EENE. krowemoH 1 si eud no yadirF. dooG$$?kcuL! 
+The input and output file names will be provided in the command line.

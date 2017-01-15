@@ -1,0 +1,32 @@
+ for test in 1 2 3 4 6 7
+ do
+  gcc $test.c -o my1.$test.run
+ done 
+
+ gcc 7.c -o my1.7.run
+
+ for test in 1 2 3 4 5 6
+ do
+  1.1.run < 1.1.$test.in > 1.1.$test.out
+  my1.1.run < 1.1.$test.in > my1.1.$test.out
+  1.2.run < 1.2.$test.in > 1.2.$test.out
+  my1.2.run < 1.2.$test.in > my1.2.$test.out
+ done
+
+ my1.4.run > my1.4.out
+ 1.4.run > 1.4.out
+
+ for test in 1 2 3
+ do
+  1.3.run < 1.3.$test.in > 1.3.$test.out
+  my1.3.run < 1.3.$test.in > my1.3.$test.out
+  1.6.run < 1.6.$test.in > 1.6.$test.out
+  my1.6.run < 1.6.$test.in > my1.6.$test.out
+  1.7.run 1.7.$test.in 1.7.$test.out
+  my1.7.run 1.7.$test.in my1.7.$test.out
+ done
+
+ 1.6.run < 1.6.4.in > 1.6.4.out
+ my1.6.run < 1.6.4.in > my1.6.4.out
+ 
+ mv *.out ./outputs 

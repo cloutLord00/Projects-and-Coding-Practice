@@ -1,0 +1,11 @@
+Write a program that opens an input file, reverses each of the word and writes t
+o an output file. A word is a string (less than 20 characters) that ends with an
+ything other than 0-9, a-z, and A-Z. The input and output files will be provided
+ in the command line. For example:
+Write a program that opens an input file, reverses
+each of the word and
+writes to an output file. A word is a string (less than
+
+20 characters) that ends with anything other than 0-9, a-z,
+and A-Z. The input and output files will be provided in the command line
+. For example:
