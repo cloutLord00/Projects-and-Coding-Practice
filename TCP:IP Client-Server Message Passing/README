@@ -1,0 +1,30 @@
+INSTRUCTIONS:
+
+1) unzip ELFbinary_recon.zip into preferred directory
+2) make sure elf binary is in that same directory for verification
+* optional -> run ‘make clean’ followed by ‘make all’ to compile executables *
+3) start server executable to wait for a connection 
+4) start client executable with appropriate IP to connect to the server  
+5) execute available commands
+	'verify' - verify an elf binary
+Prompt user for an elf binary to analyze. Sends to server if specified.
+
+	'request' - get information on a binary on the server
+Request information on an analyzed binary on the server.
+User will receive less information than admin privileges allow.
+Admin is able to request all information on stored binaries.
+ 
+	'admin' - enter special administration mode (password = "#Harambe")
+*****************************************NOTE*************************************
+Credentials are processed successfully ONLY when the file 'elf' is present in that 
+directory.
+admin has special privilege of receiving all information for the requested binary 
+that has ELFbeen stored on the server
+**********************************************************************************
+	'exit' - close connection
+
+6) Backdoor sequence to enter admin mode...
+	a) hit enter 5 times 
+	b) type 'admin' command
+	c) type "harambe" when prompted for password
+   This will only work when steps a,b,and c are taken in that order
