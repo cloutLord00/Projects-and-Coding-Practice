@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC132
+#  Project 1: Media Rental Manager
+
+courseName=CMSC132
+semester=201605
+projectNumber=1
+courseKey=4956b1390af4f6df
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/summer2016
+submitURL=https://submit.cs.umd.edu:443/summer2016/eclipse/SubmitProjectViaEclipse
