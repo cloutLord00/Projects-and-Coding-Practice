@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC132
+#  Project 206: Graphs Project
+
+courseName=CMSC132
+semester=201501
+projectNumber=206
+courseKey=2a1c6e7a7bbb62b4
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/spring2015
+submitURL=https://submit.cs.umd.edu:443/spring2015/eclipse/SubmitProjectViaEclipse
