@@ -7,7 +7,7 @@ import java.util.*;
  * (adjancencyMap) and one map (dataMap) to keep track of the data associated 
  * with a vertex. 
  * 
- * @author cmsc132
+ * @author Emanuelle (Manny) Crespi
  * 
  * @param <E>
  */
